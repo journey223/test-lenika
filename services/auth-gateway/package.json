@@ -1,0 +1,14 @@
+{
+  "name": "@xleonplayz/auth-gateway",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Login-Tor vor der Oberflaeche: prueft Benutzer und Sitzung, reicht angemeldete Anfragen an web weiter.",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node src/server.js",
+    "hash-password": "node src/hash-password.js",
+    "test": "node --test test/*.test.js"
+  }
+}
